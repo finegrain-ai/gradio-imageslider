@@ -21,6 +21,7 @@
 
 	export let label: string;
 	export let show_label: boolean;
+	export let show_download_button = true;
 
 	export let height: number | undefined;
 	export let width: number | undefined;
@@ -96,6 +97,7 @@
 		{label}
 		{show_label}
 		{upload_count}
+		{show_download_button}
 	>
 		<UploadText i18n={gradio.i18n} type="image" />
 	</Image>

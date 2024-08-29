@@ -47,6 +47,7 @@
 		bind:value
 		{label}
 		{show_label}
+		{show_download_button}
 		{loading_status}
 		{height}
 		{width}

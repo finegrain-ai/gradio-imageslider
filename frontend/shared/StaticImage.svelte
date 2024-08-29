@@ -97,6 +97,7 @@
 		{layer_images}
 		show_single={is_half}
 		{slider_color}
+		{show_download_button}
 	/>
 </Block>
 
